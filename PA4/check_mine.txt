@@ -1,0 +1,38 @@
+bad4.cl:53: cannot find the arg type: Stack
+bad4.cl:69: cannot find the the ret type: Fffff
+bad4.cl:80: Inferred type Int of initialization of attribute a does not conform to declared type Bool.
+bad4.cl:84: In call of method init, type Int of parameter y does not conform to declared type Bool.
+bad4.cl:85: Method init called with wrong number of arguments.
+bad4.cl:86: Dispatch to undefined method iinit.
+bad4.cl:87: Dispatch to undefined method initB.
+bad4.cl:89: Predicate of 'if' does not have type Bool.
+bad4.cl:82: Inferred return type SELF_TYPE of method main does not conform to declared return type C.
+bad4.cl:56: Inferred type C of initialization of no does not conform to identifier's declared type B.
+bad4.cl:58: 'self' cannot be bound in a 'let' expression.
+bad4.cl:61: Loop condition does not have type Bool.
+bad4.cl:53: Inferred return type SELF_TYPE of method d_op does not conform to declared return type Bool.
+bad4.cl:71: Undeclared identifier x.
+bad4.cl:71: Assign Expr: Symbol a is not defined.
+bad4.cl:72: Undeclared identifier y.
+bad4.cl:72: Assign Expr: Symbol b is not defined.
+bad4.cl:73: Undeclared identifier a.
+bad4.cl:37: non-Int arguments: Bool < Int
+bad4.cl:38: non-Int arguments: Int <= Bool
+bad4.cl:39: non-Int arguments Bool + Int
+bad4.cl:40: non-Int arguments Bool - Int
+bad4.cl:41: non-Int arguments Bool * Int
+bad4.cl:42: non-Int arguments Bool / Int
+bad4.cl:43: Argument of 'not' has type Int instead of Bool.
+bad4.cl:44: Illegal comparison with a basic type.
+bad4.cl:45: Argument of '~' has type Bool instead of Bool.
+bad4.cl:33: Inferred return type Int of method initB does not conform to declared return type B.
+bad4.cl:16: Duplicate branch Object in case statement.
+bad4.cl:21: Formal parameter x is multiply defined.
+bad4.cl:23: In call of method init, type Int of parameter y does not conform to declared type Bool.
+bad4.cl:24: Method init called with wrong number of arguments.
+bad4.cl:25: Dispatch to undefined method iinit.
+bad4.cl:21: Inferred return type Object of method get does not conform to declared return type Int.
+bad4.cl:105: Predicate of 'if' does not have type Bool.
+bad4.cl:109: Assign Expr: Symbol top is not defined.
+bad4.cl:103: Inferred return type M of method initB does not conform to declared return type C.
+Compilation halted due to static semantic errors.
