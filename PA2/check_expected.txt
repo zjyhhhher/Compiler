@@ -1,0 +1,11 @@
+#name "test_me.cl"
+#1 ERROR "\\"
+#1 ERROR ">"
+#1 ERROR "_"
+#1 ERROR "["
+#1 ERROR "]"
+#4 ERROR "Unterminated string constant"
+#5 ERROR "String constant too long"
+#6 OBJECTID abcd
+#7 ERROR "Unmatched *)"
+#9 ERROR "Unterminated string constant"

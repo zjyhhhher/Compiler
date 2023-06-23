@@ -1,0 +1,28 @@
+#!/bin/bash
+if [ -e check_mine.txt ]; then 
+  rm check_mine.txt 
+fi
+if [ -e check_expected.txt ]; then 
+  rm check_expected.txt 
+fi
+
+
+for file in $(ls ./)
+do 
+  if [ "${file##*.}" = "cl" ]; then
+      ./lexer ${file} > check_mine.txt
+      ../../bin/lexer ${file} > check_expected.txt 
+      
+      result=$(diff check_mine.txt check_expected.txt)
+
+      if [ -z "$result" ]; then 
+        echo "${file} passed"
+      else 
+        echo -e "${file}\n$result"
+      fi
+
+  fi
+  
+
+done
+
